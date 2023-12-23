@@ -1,0 +1,23 @@
+.big1 {
+  margin-bottom: 40px;
+  border-bottom: 1px solid grey;
+  padding-bottom: 20px;
+  .flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .alar {
+    a {
+      margin: 26px;
+    }
+  }
+
+  .knp {
+    background-color: yellow;
+    color: black;
+    padding: 8px 19px;
+    border-radius: 12px;
+  }
+}

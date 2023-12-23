@@ -1,0 +1,333 @@
+.big1 {
+  margin-bottom: 40px;
+  border-bottom: 1px solid grey;
+  padding-bottom: 20px;
+}
+
+.big1 .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.big1 .alar a {
+  margin: 26px;
+}
+
+.big1 .knp {
+  background-color: yellow;
+  color: black;
+  padding: 8px 19px;
+  border-radius: 12px;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1125px;
+  margin: 0 auto;
+}
+
+.big2 {
+  margin-top: 40px;
+}
+
+.big2 .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.big3 {
+  margin-top: 40px;
+}
+
+.big3 .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.big3 img {
+  width: 830px;
+}
+
+.big4 .gridlar {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+}
+
+.big4 .rasmlar img {
+  width: 350px;
+}
+
+.big5 {
+  margin-top: 40px;
+}
+
+.big5 .until {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 20px;
+}
+
+.big5 .until a {
+  background-color: white;
+  color: black;
+  padding: 8px 15px;
+  border-radius: 12px;
+  width: 100%;
+  text-align: center;
+  border: solid 1px black;
+  display: inline-block;
+}
+
+.big5 .until a:hover {
+  background-color: yellow;
+}
+
+.big5 .until2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 10px;
+  margin: 10px 0px;
+}
+
+.big5 .until2 a {
+  background-color: white;
+  color: black;
+  padding: 8px 15px;
+  width: 100%;
+  text-align: center;
+  border-radius: 12px;
+  border: solid 1px black;
+  display: inline-block;
+}
+
+.big5 .until2 .knp2 {
+  width: 70%;
+}
+
+.big5 .until2 a:hover {
+  background-color: yellow;
+}
+
+.big6 {
+  background-color: gray;
+}
+
+.big6 .grid2 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.big6 .media img {
+  width: 100%;
+}
+
+.big6 .rasm {
+  height: 270px;
+}
+
+.big6 .make {
+  text-align: center;
+}
+
+.big7 {
+  background: -webkit-gradient(linear, left top, right top, from(#805d51), to(#75754a));
+  background: linear-gradient(to right, #805d51, #75754a);
+}
+
+.big7 .left h1 {
+  color: white;
+  border-bottom: 1px solid #b3acac;
+}
+
+.big7 .left .hobby {
+  color: yellow;
+}
+
+.big7 .right img {
+  width: 300px;
+}
+
+.big8 {
+  background-color: #eee7e7;
+  margin-top: 40px;
+}
+
+.big8 .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.big9 {
+  margin-top: 40px;
+}
+
+.big9 .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.big9 .right {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (4fr)[2];
+      grid-template-columns: repeat(2, 4fr);
+}
+
+.big10 .tittle {
+  text-align: center;
+}
+
+.big10 .grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  width: 100%;
+}
+
+.big10 .grid .grid-box1 {
+  position: relative;
+}
+
+.big10 .grid .grid-box1 img {
+  width: 100%;
+}
+
+.big10 .abs {
+  position: absolute;
+  bottom: 0;
+  background-color: gray;
+  color: white;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.big10 .abs .icon i {
+  border-radius: 50%;
+  background-color: whitesmoke;
+  color: black;
+}
+
+.big10 .grid-box1 {
+  position: relative;
+}
+
+.big11 {
+  margin-top: 50px;
+}
+
+.big11 .flex {
+  text-align: center;
+}
+
+.big11 .flex .spn {
+  color: #cac6c6;
+}
+
+.big11 .flex img {
+  border-radius: 20px;
+  width: 100px;
+}
+
+.big11 .flex .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 10px;
+}
+
+.big11 .flex .box i {
+  border: solid 1px black;
+  border-radius: 50%;
+}
+
+.big12 .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.big12 ul li {
+  margin: 10px 0px;
+}
+
+.big12 ul li a {
+  color: gray;
+}
+/*# sourceMappingURL=style.css.map */

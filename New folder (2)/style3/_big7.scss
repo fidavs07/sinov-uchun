@@ -1,0 +1,28 @@
+.big7 {
+  margin-top: 60px;
+
+  .flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .left {
+    h1 {
+      font-size: 45px;
+    }
+
+    a {
+      border: 1px solid black;
+      border-radius: 12px;
+      padding: 6px 12px;
+      color: black;
+    }
+  }
+
+  .right {
+    img {
+      width: 70%;
+    }
+  }
+}

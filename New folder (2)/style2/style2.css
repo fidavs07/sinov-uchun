@@ -1,0 +1,278 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1125px;
+  margin: 0 auto;
+}
+
+.big1 {
+  margin-bottom: 40px;
+  border-bottom: 1px solid grey;
+  padding-bottom: 20px;
+}
+
+.big1 .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.big1 .alar a {
+  margin: 26px;
+}
+
+.big1 .knp {
+  background-color: yellow;
+  color: black;
+  padding: 8px 19px;
+  border-radius: 12px;
+}
+
+.big2 .flex {
+  text-align: center;
+}
+
+.big2 .flex h1 {
+  font-size: 52px;
+  color: black;
+}
+
+.big2 .flex h6 {
+  color: black;
+}
+
+.big2 .flex a {
+  font-size: 12px;
+  background-color: #cac1c1;
+  color: black;
+  padding: 6px 8px;
+  border-radius: 8px;
+}
+
+.big3 {
+  margin-top: 70px;
+  background-color: #cfc9c9;
+}
+
+.big3 .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 32px;
+}
+
+.big3 .left img {
+  width: 380px;
+}
+
+.big3 .right .grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+}
+
+.big3 .right .grid img {
+  width: 380px;
+}
+
+.big3 .right .boy a {
+  font-size: 12px;
+  background-color: #797676;
+  color: black;
+  padding: 6px 8px;
+  border-radius: 8px;
+}
+
+.big4 {
+  text-align: center;
+}
+
+.big4 h1 {
+  font-size: 40px;
+}
+
+.big5 .flex img {
+  width: 1150px;
+}
+
+.big5 .flex a {
+  border: solid 1px grey;
+  color: black;
+  padding: 6px 7px;
+  border-radius: 16px;
+}
+
+.big5 .flex .box {
+  text-align: center;
+  margin: 32px;
+}
+
+.big6 img {
+  width: 100%;
+  height: 100px;
+}
+
+.big7 .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.big7 .beat {
+  text-align: center;
+}
+
+.big7 .right a {
+  margin: 20px;
+  border: 1px solid black;
+  border-radius: 12px;
+  color: black;
+  padding: 6px 11px;
+}
+
+.big7 .left h1 {
+  color: gray;
+  border-bottom: 1px solid #b3acac;
+  padding-bottom: 20px;
+}
+
+.big7 .left .mas {
+  color: black;
+}
+
+.big8 {
+  background: url(../img2/xona.png);
+  height: 100vh;
+  position: relative;
+}
+
+.big8 .abs {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+
+.big8 .abs .box {
+  border: 1px solid white;
+  color: wheat;
+  border-radius: 12px;
+  padding: 5px;
+}
+
+.big9 {
+  margin-top: 60px;
+}
+
+.big9 .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.big9 .left h1 {
+  font-size: 40px;
+}
+
+.big9 .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.big9 .right h3 {
+  margin: 32px;
+}
+
+.big9 .swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.big9 .swiper-slide {
+  font-size: 18px;
+  background: #fff;
+}
+
+.big9 .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.big10 {
+  margin-top: 60px;
+}
+
+.big10 .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 32px;
+}
+
+.big10 .flex i {
+  font-size: 70px;
+}
+
+.big11 .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+/*# sourceMappingURL=style2.css.map */

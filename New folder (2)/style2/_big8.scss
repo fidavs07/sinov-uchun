@@ -1,0 +1,18 @@
+.big8 {
+  background: url(../img2/xona.png);
+  height: 100vh;
+  position: relative;
+
+  .abs {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+
+    .box {
+      border: 1px solid white;
+      color: wheat;
+      border-radius: 12px;
+      padding: 5px;
+    }
+  }
+}

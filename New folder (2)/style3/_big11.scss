@@ -1,0 +1,23 @@
+.big11 {
+  .flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .box {
+    border: 1px solid black;
+    border-radius: 12px;
+    padding: 8px 14px;
+  }
+
+  .get {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+
+    h6 {
+      color: gray;
+    }
+  }
+}

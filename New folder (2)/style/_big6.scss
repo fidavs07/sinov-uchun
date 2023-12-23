@@ -1,0 +1,22 @@
+.big6 {
+  background-color: gray;
+
+  .grid2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  .media {
+    img {
+      width: 100%;
+    }
+  }
+
+  .rasm {
+    height: 270px;
+  }
+
+  .make {
+    text-align: center;
+  }
+}

@@ -1,0 +1,13 @@
+.big9 {
+  margin-top: 40px;
+  .flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .right {
+    display: grid;
+    grid-template-columns: repeat(2, 4fr);
+  }
+}

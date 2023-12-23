@@ -1,0 +1,22 @@
+.big10 {
+  .flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .left {
+    h1 {
+      font-size: 45px;
+    }
+  }
+
+  .right {
+    a {
+      border: 1px solid black;
+      border-radius: 12px;
+      padding: 6px 12px;
+      color: black;
+    }
+  }
+}

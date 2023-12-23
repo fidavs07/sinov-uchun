@@ -1,0 +1,12 @@
+.big4 {
+  .gridlar {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .rasmlar {
+    img {
+      width: 350px;
+    }
+  }
+}

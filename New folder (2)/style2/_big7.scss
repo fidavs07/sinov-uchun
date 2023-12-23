@@ -1,0 +1,31 @@
+.big7 {
+  .flex {
+    display: flex;
+    justify-content: space-between;
+  }
+  .beat {
+    text-align: center;
+  }
+
+  .right {
+    a {
+      margin: 20px;
+      border: 1px solid black;
+      border-radius: 12px;
+      color: black;
+      padding: 6px 11px;
+    }
+  }
+
+  .left {
+    h1 {
+      color: gray;
+      border-bottom: 1px solid rgb(179, 172, 172);
+      padding-bottom: 20px;
+    }
+
+    .mas {
+      color: black;
+    }
+  }
+}

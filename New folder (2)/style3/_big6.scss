@@ -1,0 +1,34 @@
+.big6 {
+  margin-top: 60px;
+
+  .grid {
+    img {
+      width: 99%;
+    }
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    h5 {
+      font-size: 18px;
+    }
+
+    p {
+      font-size: 18px;
+    }
+  }
+
+  .flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    h5 {
+      font-size: 18px;
+    }
+
+    p {
+      font-size: 18px;
+    }
+  }
+}
